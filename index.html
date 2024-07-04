@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wander Wise Guide-HOME</title>
+  <link rel="icon" type="image/x-icon" href="logo.jpg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-family: Satisfy; font-size: 30px;">
+      <img src="logo.jpg" class="rounded-circle" width="50" height="50" alt="Logo">
+      Wander Wise Guide
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="font-family: Satisfy; font-size: 23px;">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./tour hunter/index.html">Tour Hunter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./restotle/index.html">Restotel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about us/index.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact us/index.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner/Slider -->
+<section class="banner">
+  <div class="container text-center">
+    <h1 class="display-4 font-weight-bold text-warning" style="font-family: Satisfy; margin-top: 11%; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+      Find your Next Tour!
+    </h1>
+    <form class="form-inline justify-content-center my-4">
+      <input type="text" list="mylist" class="form-control" placeholder="Where would you like to go?" style="width: 28%; padding: 2%; margin-top: 4%;"> 
+      <datalist id="mylist">
+        <option>ISLAMABAD</option>
+        <option>SKARDU</option>
+        <option>SWAT</option>
+        <option>KASHMIR</option>
+        <option>CHITRAL</option>
+        <option>GILGIT</option>
+      </datalist>
+      <a href="./booking/index.html" class="btn btn-warning font-weight-bold" style="margin-left: 1%; width: 25%; padding: 1%; margin-top: 4%; font-size: 15px; border: solid 1px;">
+        Book Now
+      </a>
+    </form>
+  </div>
+</section>
+<!-- Card Section -->
+<section class="places">
+  <div id="text">
+      <b><h1 style="font-family: satisfy;font-size: 60px;font-weight: bolder;">Featured Tours Packages</h1></b>
+      <h2 style="color: #ffc300;font-family: satisfy;font-size: 60px;font-weight: lighter;">Favourite Places</h2>
+  </div>
+
+  <div class="container my-5">
+    <!-- Section with 6 Cards -->
+    <section class="mb-5">
+      <div class="row">
+        <!-- Row 1 -->
+        <div class="col-md-4 mb-4" id="b1">
+          <div class="card h-100">
+            <img src="ISL.jpeg" class="card-img-top" alt="ISL">
+            <div class="card-body">
+                <div class="text">
+                  <span class="rating">⭐⭐⭐⭐⭐</span>
+                  <h2 id="cardtext">The Serene Capital of Pakistan</h2>
+                  <p class="cost">PKR 30000 / Per Person</p>
+                  <div class="card-box">
+                      <p id="tl">🕓 3 Days</p><p id="tl">✈ Islamabad, Pakistan</p>
+                  </div><br>
+                  <a href="./tour hunter/index.html#p1" class="btn" style="font-family: serif;background-color: #ffc300;font-size: 15px;">Explore More</a>
+              </div>
+              </div>
+          </div>
+        </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100" id="b2">
+          <img src="swat.jpg" class="card-img-top" alt="swat">
+          <div class="card-body">
+            <div class="text">
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <h2 id="cardtext"> Nature's Paradise in Pakistan's Northwest</h2>
+              <p class="cost">PKR 35000 / Per Person</p>
+              <div class="card-box">
+                  <p id="tl">🕓 3 Days</p>
+                  <p id="tl">✈ Swat, Pakistan</p>
+              </div><br>
+              <a href="./tour hunter/index.html#p2" class="btn" style="font-family: serif;background-color: #ffc300;font-size: 15px;">Explore More</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" id="b3">
+        <div class="card h-100">
+          <img src="skardu.jpeg" class="card-img-top" alt="skardu">
+          <div class="card-body">
+            <div class="text">
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <h2 id="cardtext">Exploring the Jewel of the Northern Pakistan</h2>
+              <p class="cost">PKR 37000 / Per Person</p>
+              <div class="card-box">
+                  <p id="tl">🕓 3 Days</p>
+                  <p id="tl">✈ Skardu, Pakistan</p>
+              </div><br>
+              <a href="./tour hunter/index.html#p3" class="btn" style="font-family: serif;background-color: #ffc300;font-size: 15px;">Explore More</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Row 2 -->
+      <div class="col-md-4 mb-4" id="b4">
+        <div class="card h-100">
+          <img src="chitral.jpeg" class="card-img-top" alt="chitral">
+          <div class="card-body">
+            <div class="text">
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <h2 id="cardtext">Discovering Northern Pakistan's Hidden Gem</h2>
+              <p class="cost">PKR 40000 / Per Person</p>
+              <div class="card-box">
+                  <p id="tl">🕓 3 Days</p>
+                  <p id="tl">✈ Chitral, Pakistan</p>
+              </div><br>
+              <a href="./tour hunter/index.html#p4" class="btn" style="font-family: serif;background-color: #ffc300;font-size: 15px;">Explore More</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" id="b5">
+        <div class="card h-100">
+          <img src="gilgit.jpeg" class="card-img-top" alt="gilgit">
+          <div class="card-body">
+            <div class="text">
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <h2 id="cardtext">Exploring the Gateway to the Himalayas</h2>
+              <p class="cost">PKR 42000 / Per Person</p>
+              <div class="card-box">
+                  <p id="tl">🕓 3 Days</p>
+                  <p id="tl">✈ Gilgit, Pakistan</p>
+              </div><br>
+              <a href="./tour hunter/index.html#p5" class="btn" style="font-family: serif;background-color: #ffc300;font-size: 15px;">Explore More</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" id="b6">
+        <div class="card h-100">
+          <img src="kashmir.jpg" class="card-img-top" alt="kashmir">
+          <div class="card-body">
+            <div class="text">
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <h2 id="cardtext">Unveiling Nature's Splendor</h2>
+              <p class="cost">PKR 30000/ Per Person</p>
+              <div class="card-box">
+                  <p id="tl">🕓 3 Days</p>
+                  <p id="tl">✈ Kashmir, Pakistan</p>
+              </div><br>
+              <a href="./tour hunter/index.html#p6" class="btn" style="font-family: serif;background-color: #ffc300;font-size: 15px;">Explore More</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</section>
+<!-- About Section -->
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <h2 style="color: #ffc300;font-size: 35px;font-weight: bolder;font-family: 'satisfy';">Your Pathway to Adventure and Discovery</h2>
+        <p style="font-size: 17px;">Wander Wise Guides offers concise travel guidance for adventurous explorers. With expert insights and curated content, we empower travelers to make informed decisions. Discover hidden gems, navigate local customs, and embark on memorable journeys with confidence. Explore the world with Wander Wise Guides.</p>
+        <ul class="b">
+        <li>Your trusted companion in the world of exploration</li>
+        <li>Embark on unforgettable journeys with expert guidance</li>
+        <li>Discover hidden gems and navigate new horizons with confidence</li>
+        <li>Let Wander Wise Guides be your compass to adventure</li>
+        </ul>
+        <a href="./about us/index.html" class="btn" style="font-family: serif;background-color:  #ffc300;">Learn More</a><br><br>
+      </div>
+      <div class="col-md-6">
+        <img src="about.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class=" py-4" style="background-color: #ffc300;color:black;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#" style="color: black;">Home</a></li>
+          <li><a href="./about us/index.html" style="color: black;">About us</a></li>
+          <li><a href="./tour hunter/index.html" style="color: black;">TourHunter</a></li>
+          <li><a href="./contact us/index.html" style="color: black;">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Social Media Links</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100093151268116" style="color: black;">Facebook</a></li>
+          <li><a href="https://www.instagram.com/asma_thetrailblazer/" style="color: black;">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@asma_thetrailblazer" style="color: black;">TikTok</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="tel:+92 325 5612035" style="color: black;">+92 325 5612035</a></li>
+          <li><a href="tel:+92 316 9938043" style="color: black;">+92 316 9938043</a></li>
+          <li><a href="mailto:ismahafeez1503@gmail.com" style="color: black;">ismahafeez1503@gmail.com</a></li>
+          <li><a href="mailto:itxvashmooo@gmail.com " style="color: black;">itxvashmooo@gmail.com </a></li>
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <div class="ml-4">
+          <a href="https://wa.me/qr/NJE7UYHZDZH4A1" target="_blank"><img src="whatsapp.jpg" alt="WhatsApp" class="whatsapp-logo"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome -->
+</body>
+</html>
